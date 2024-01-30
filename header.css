@@ -1,0 +1,79 @@
+/* Starting of a responsive design */
+
+body {
+    width :86%;
+    margin-left: 7%;
+    /* border: 1px solid; */
+    font-family: Mulish;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    padding : 5px;
+    font-family: Mulish;
+    color: #424247;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav span{
+    color: #FF5400;
+}
+
+.website_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website_icon h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 15px;
+}
+.website_icon span {
+    color: #FF5400;
+}
+
+.website_icon img{
+    width: 48px;
+    height: 56.008px;
+    padding-top: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('images/Group\ 13\ \(1\)\ \(1\).png');
+    width:100%;
+    height: 500px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* background-image: linear-gradient(#131318, white); */
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
