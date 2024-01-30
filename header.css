@@ -92,30 +92,32 @@ body {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
-    font-size: 16px;
+    /* font-size: 1.5rem; */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: center;
-    width: 174px;
-    height: 52px;
+    width: 85%;
+    height: 56px;
     flex-shrink: 0;
     border: none;
+   
 }
 
 .input_div button p {
     text-align: center;
     font-family: Mulish;
-    font-size: 1rem;
-    font-style: normal;
+    /* font-size: 1rem; */
+
     font-weight: 700;
     line-height: normal;
     margin-left: 10px;
+    
 }
 
 .input_div button svg {
    margin-top: 15px;
-   margin-left: 30px;
+   margin-left: 20px;
 }
 
 .input_div {
@@ -126,10 +128,30 @@ body {
    grid-gap: 10px;
    border-radius: 8px;
    background: rgba(255, 255, 255, 0.30);
+   width: 76%;
+   margin-right: 10%;
+   margin-left: 10%;
+   height: 5.25rem;
+   padding-left: 4%;
+   margin-top: 2rem;
     
 }
 
-.input_div input {
-    margin-right: .6rem;
-
+.dropdown1, .dropdown2, .input1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }
+
+.dropdown1 p, .dropdown2  p, .input1 p {
+    color: rgba(19, 19, 24, 0.50);
+    padding-left: 15px;
+}
+
+
+ 
