@@ -35,11 +35,11 @@ body {
 }
 
 .website_icon h2{
-    font-size: 36px;
+    font-size: 2.2rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-left: 15px;
+    margin-left: .95rem;
 }
 .website_icon span {
     color: #FF5400;
