@@ -1,0 +1,59 @@
+.choose_texts {
+    text-align: center;
+    width: 70%;
+    margin-left: 12.5vw;
+    margin-top: 6vw;
+}
+
+.choose_texts h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose_texts p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; /* 162.5% */
+}
+
+.card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+.card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+}
+
+.card3 {
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);    
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 1rem;
+    margin-left: 19vw;
+    padding: 2rem;
+}
+
+.card img {
+    width:15%;
+    height: auto;
+}
+
+.cardrow {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}

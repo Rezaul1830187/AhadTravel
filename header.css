@@ -1,10 +1,10 @@
 /* Starting of a responsive design */
-
 body {
     width :86%;
     margin-left: 7%;
     /* border: 1px solid; */
     font-family: Mulish;
+
 }
 
 .nav {
@@ -18,7 +18,7 @@ body {
     padding : 5px;
     font-family: Mulish;
     color: #424247;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -35,7 +35,7 @@ body {
 }
 
 .website_icon h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -46,9 +46,9 @@ body {
 }
 
 .website_icon img{
-    width: 48px;
-    height: 56.008px;
-    padding-top: 25px;
+    width: 3rem;
+    height: 3.2rem;
+    padding-top: 1.5rem;
 }
 
 .menu {
@@ -73,7 +73,7 @@ body {
 
 .banner h1 {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -81,7 +81,7 @@ body {
 
 .banner p{
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
@@ -107,7 +107,7 @@ body {
 .input_div button p {
     text-align: center;
     font-family: Mulish;
-    /* font-size: 1rem; */
+    font-size: .9rem;
 
     font-weight: 700;
     line-height: normal;
@@ -151,6 +151,7 @@ body {
 .dropdown1 p, .dropdown2  p, .input1 p {
     color: rgba(19, 19, 24, 0.50);
     padding-left: 15px;
+    font-size: .9rem;
 }
 
 
