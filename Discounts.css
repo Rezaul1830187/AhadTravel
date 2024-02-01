@@ -29,15 +29,64 @@
     background-size: cover;
     width: 100%;
     height: 500px;
+    /* clear: both; */
     border-radius: 10px;
+    margin-top: 60px;
+    overflow: hidden;
 }
 
+.Deals2 {
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    /* clear: both; */
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+
+.Deals2> .card4 {
+    margin-left: 6vw;
+}
 .card4 {
     width: 50%;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+    padding: 30px;
+    margin-top: 5rem;
+    margin-left: 31vw;
+}
+
+.card4 button {
+    border-radius: 5px;
+    background: #FF5400;
+    color: #FFF;
+    /* font-size: 1.5rem; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 10vw;
+    height: auto;
+    border: none;
+    padding: 10px;
+}
+
+.price {
+    color: #FF5400;;
+}
+.card4 p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; 
+
 }
 .icons {
     display: flex;
@@ -55,4 +104,23 @@
 
 .icons svg {
     margin-top: .9rem;
+}
+
+.btn2 {
+    text-align: center;
+    margin: 3vw;
+}
+.btn2 button {
+    border-radius: 5px;
+    background: #FF5400;
+    color: #FFF;
+    /* font-size: 1.5rem; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    height: auto;
+    border: none;
+    padding: 15px;
+
 }

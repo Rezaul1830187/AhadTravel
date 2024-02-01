@@ -1,0 +1,77 @@
+.Bangladesh {
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    margin-top: 5rem;
+}
+
+.audio {
+    background-image: url(Images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    height: 424px;
+    border-radius: 10px;
+    
+    
+}
+
+.audio audio {
+    color: transparent !important;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 9rem;
+}
+.audio p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw;
+    margin-top: 10vw;
+}
+
+.text2 {
+    width: 45%;
+}
+
+.text2 li {
+    color: black;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; 
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.text2 p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; 
+}
+.text2 h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text2 button {
+    border-radius: 5px;
+    background: #FF5400;
+    color: #FFF;
+    /* font-size: 1.5rem; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 10vw;
+    height: auto;
+    border: none;
+    padding: 10px;
+    margin-top: 1.8rem;
+}
