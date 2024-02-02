@@ -1,10 +1,17 @@
 /* Starting of a responsive design */
-body {
+main {
     width :86%;
     margin-left: 7%;
     /* border: 1px solid; */
     font-family: Mulish;
 
+}
+
+header {
+    width :86%;
+    margin-left: 7%;
+    /* border: 1px solid; */
+    font-family: Mulish;
 }
 
 .nav {
@@ -15,7 +22,7 @@ body {
 
 .nav a{
     text-decoration: none;
-    padding : 5px;
+    /* padding : 5px; */
     font-family: Mulish;
     color: #424247;
     font-size: 1.2rem;
@@ -154,5 +161,60 @@ body {
     font-size: .9rem;
 }
 
+
+/* responsive design */
+
+@media screen and (max-width:576px) {
+   .menu {
+    flex-direction: column;
+   }
+
+   .website_icon {
+    justify-content: center;
+   }
+   .nav a {
+    padding: 5px;
+   }
+   .nav {
+    margin-bottom: 20px;
+   }
+
+   .banner h1 {
+    font-size: 2rem;
+   }
+    .banner p {
+        width: 65%;
+        margin-left: 15vw;
+        margin-top: -1rem;
+        font-size: 10px;
+    }
+
+    .input_div {
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        padding: .6rem;
+    }
+
+    .dropdown1 p, .dropdown2  p, .input1 p {
+        padding-left: 1px;
+        font-size: .8rem;
+        margin-top: 2px;
+    }
+
+    .dropdown1, .dropdown2, .input1 {
+        /* padding: 1px; */
+        padding-left: 0;
+        height: 3rem;
+        text-align: left;
+    }
+
+    .input_div button {
+        width: 100%;
+    }
+    .input_div button p{
+        /* text-align: center; */
+        margin-top: 1.2rem;
+    }
+}
 
  

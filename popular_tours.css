@@ -58,3 +58,27 @@ margin-top: -30px;
     width: 100%;
     height: auto;
 }
+
+/* responsive design */
+@media only screen and (max-width:576px){
+    .popular_tours {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular_tours p {
+        font-size: .8rem;
+        font-weight: 300;
+        line-height: 4.95vw;
+    
+    }
+    
+    .popular_tours h2 {
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+
+
+
+}

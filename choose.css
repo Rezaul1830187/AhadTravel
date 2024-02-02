@@ -57,3 +57,29 @@
     gap: 1rem;
     margin-top: 2.5rem;
 }
+
+
+/* responsive design */
+@media only screen and (max-width: 576px){
+    .choose_texts {
+        width: 80%;
+        margin-left: 10vw;
+    }
+    
+    .choose_texts p{
+        font-size: .7rem;
+        line-height: 6vw; /* 162.5% */
+    }
+    .cardrow {
+        flex-direction: column;
+        margin-top: 1rem;
+    
+    }
+    .choose .card {
+        width: 80%;
+    }
+ .card3 {
+    margin-left: 0%;
+ }
+}
+
