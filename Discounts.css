@@ -108,7 +108,7 @@
 
 .btn2 {
     text-align: center;
-    margin: 3vw;
+    margin: 2vw;
 }
 .btn2 button {
     border-radius: 5px;
@@ -123,4 +123,47 @@
     border: none;
     padding: 15px;
 
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 576px){
+
+    .Discount_texts {
+        width: 75%;
+        margin-left: 12vw;
+    }
+    .Discount_texts h2 {
+        font-size: 1.3rem;
+    }
+    .Discount_texts p{
+        font-size: .7rem;
+        line-height: 6vw;
+    }
+
+    .Deals1 {
+        margin-top: 20px;
+    }
+    .btn2 {
+        display: none;
+    }
+    .card4 button {
+        width: 10rem;
+    }
+
+    .card4 p{
+        font-size: .7rem;
+        line-height: 3vw;
+    }
+    .icons svg {
+        width: 5vw;
+        height: auto;
+    }
+    .Deals2> .card4 {
+        margin-left: 5vw;
+    }
+    .card4 {
+        margin-left: 5vw;
+        width: 70%;
+    }
 }

@@ -72,3 +72,30 @@
     padding: 10px;
     margin-top: 1.8rem;
 }
+
+/* responsive design */
+
+@media only screen and (max-width:576px){
+    .Newsletter {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .rotate {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0;
+
+    }
+    .text3 {
+        width: 90%;
+        padding: 1rem;
+    }
+    .text3 p{
+        font-size: .8rem;
+        line-height: 4vw;
+    }
+    .rotate1 {
+        margin-left: 22vw;
+        padding: .3rem;
+    }
+}
